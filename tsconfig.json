@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "jsx": "react",
+    "baseUrl": "./src/",
+    "paths": {
+      "@Constants": ["src/Constants"],
+      "@Constants/*": ["src/Constants/*"],
+      "@Screens": ["src/Screens"],
+      "@Screens/*": ["src/Screens/*"],
+      "@Styles": ["src/Styles"],
+      "@Components": ["src/Components"],
+      "@Components/*": ["src/Components/*"],
+      "@Services": ["src/Services"],
+      "@Services/*": ["src/Services/*"],
+      "@Store": ["src/Store"],
+      "@Store/*": ["src/Store/*"],
+      "@Utils": ["src/Utils"],
+      "@Utils/*": ["src/Utils/*"],
+      "@Images/*": ["src/Assets/Images/*"],
+      "@Fonts/*": ["src/Assets/Fonts/*"],
+      "@Assets/*": ["src/Assets/*"]
+    },
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ], 
+
+}
